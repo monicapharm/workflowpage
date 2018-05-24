@@ -1,0 +1,68 @@
+#chart {
+	margin: 5em auto;
+	list-style: none;
+	padding: 0;
+	max-width: 800px;
+	position: relative;
+    top: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#chart li {
+    display: block;
+    background-color:#b5e7a0;
+}
+
+ul {
+  display:flex;  
+  list-style:none;
+}
+
+#chart .block {
+	width: 150px;
+    margin-bottom: 7em;
+    margin-right: 3.5em;
+	height: 100px;
+	border: 1px solid;
+	/* -webkit-transform: rotate( 45deg );
+	-ms-transform: rotate( 45deg );
+		transform: rotate( 45deg ); */
+    position: relative;
+}
+
+#chart .block-content {
+	/* -webkit-transform: rotate( -45deg );
+	-ms-transform: rotate( -45deg );
+		transform: rotate( -45deg ); */
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	margin-top: -0.5em;	
+}
+
+#chart .next-icon {
+	width: 30px;
+	height: 30px;
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAA3NCSVQICAjb4U/g AAAACXBIWXMAAARuAAAEbgHQo7JoAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2Nh cGUub3Jnm+48GgAAAB5QTFRF////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA how4rQAAAAl0Uk5TAAwREiowWMPOLoJhMgAAAEhJREFUKFNjYBhCgCUNDgLAAoyV M6FghgFEiThMoBmqB6YEpgCuBKYApgShAKoEoQCiBFkBWAmyApASVAVAJagKgEoU GIYaAADIMSWmfFk62AAAAABJRU5ErkJggg==') no-repeat 50% 0;
+	display: block;
+	position: absolute;
+	left: 25%;
+    margin-left: -16px;
+    transform: rotate( -90deg );
+}
+
+#chart .icon-1 {
+    top: 32px;
+    left: 170px;
+}
+
+#chart .icon-2 {
+    top: 32px;
+    left: 370px;
+}
+
+#chart .icon-3 {
+    top: 32px;
+    left: 575px;
+}
