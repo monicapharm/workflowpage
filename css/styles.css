@@ -1,3 +1,13 @@
+.container {
+	margin-top:2em;
+	margin-left:2em;
+}
+
+.extra-content p {
+	font-size: 0.8em;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
 #chart {
 	margin: 5em auto;
 	list-style: none;
@@ -21,9 +31,10 @@ ul {
 #chart .block {
 	width: 150px;
     margin-bottom: 7em;
-    margin-right: 3.5em;
+    margin-right: 2.5em;
 	height: 100px;
-	border: 1px solid;
+	/* border: 2px solid, green; */
+    border-radius: 20px;
 	/* -webkit-transform: rotate( 45deg );
 	-ms-transform: rotate( 45deg );
 		transform: rotate( 45deg ); */
@@ -41,6 +52,11 @@ ul {
 	margin-top: -0.5em;	
 }
 
+#chart .extra-content {
+	margin-top: 8em;
+	text-align: center;
+}
+
 #chart .next-icon {
 	width: 30px;
 	height: 30px;
@@ -53,16 +69,16 @@ ul {
 }
 
 #chart .icon-1 {
-    top: 32px;
-    left: 170px;
+    top: 33px;
+    left: 172px;
 }
 
 #chart .icon-2 {
-    top: 32px;
-    left: 370px;
+    top: 33px;
+    left: 362px;
 }
 
 #chart .icon-3 {
-    top: 32px;
-    left: 575px;
+    top: 33px;
+    left: 552px;
 }
